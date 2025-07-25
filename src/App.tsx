@@ -5,7 +5,6 @@ function App() {
   const [showConfetti, setShowConfetti] = useState(false);
 
   useEffect(() => {
-    // step 1: trigger confetti after a short delay
     const timer = setTimeout(() => {
       setShowConfetti(true);
     }, 500);
@@ -16,8 +15,7 @@ function App() {
   return (
     <div className="app">
       <div className="hero-section">
-        <h1 className="title">Successfully Deployed with ❤️</h1>
-        <p className="subtitle">DeployX</p>
+        <h1 className="title">Successfully Deployed with deployx</h1>
         <div className="decorative-circle circle-1"></div>
         <div className="decorative-circle circle-2"></div>
         <div className="decorative-circle circle-3"></div>

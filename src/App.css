@@ -1,14 +1,11 @@
-/* step 1: import engaging font */
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;800&display=swap");
 
-/* step 2: clean reset */
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-/* step 3: main app container */
 .app {
   min-height: 100vh;
   min-height: 100dvh;
@@ -22,7 +19,6 @@
   padding: 1rem;
 }
 
-/* step 4: hero section */
 .hero-section {
   text-align: center;
   z-index: 10;
@@ -32,7 +28,6 @@
   max-width: 600px;
 }
 
-/* step 5: main title */
 .title {
   font-size: clamp(2.5rem, 8vw, 4.5rem);
   font-weight: 800;
@@ -46,7 +41,6 @@
   z-index: 2;
 }
 
-/* step 6: subtitle */
 .subtitle {
   font-size: clamp(1rem, 4vw, 1.5rem);
   color: rgba(255, 255, 255, 0.9);
@@ -59,7 +53,6 @@
   z-index: 2;
 }
 
-/* step 7: decorative circles */
 .decorative-circle {
   position: absolute;
   border-radius: 50%;
@@ -94,7 +87,6 @@
   animation-delay: 4s;
 }
 
-/* step 8: confetti container */
 .confetti-container {
   position: fixed;
   top: 0;
@@ -106,7 +98,6 @@
   overflow: hidden;
 }
 
-/* step 9: confetti pieces */
 .confetti-piece {
   position: absolute;
   width: 10px;
@@ -141,7 +132,6 @@
   box-shadow: 0 0 6px #ffeaa7;
 }
 
-/* step 10: confetti fall animation */
 @keyframes confettiFall {
   0% {
     transform: translateY(-10px) rotate(0deg);
@@ -159,7 +149,6 @@
   }
 }
 
-/* step 11: smooth animations */
 @keyframes fadeInUp {
   from {
     opacity: 0;
@@ -181,7 +170,6 @@
   }
 }
 
-/* step 12: mobile responsive */
 @media (max-width: 768px) {
   .app {
     padding: 0.5rem;
